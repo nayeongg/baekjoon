@@ -1,0 +1,11 @@
+import sys
+input = sys.stdin.readline
+
+a = int(input())
+b = list(map(int,input().split()))
+   
+c = max(b)
+d = min(b)
+    
+e = c*d
+print(e)
